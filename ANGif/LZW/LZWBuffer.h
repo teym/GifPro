@@ -9,6 +9,8 @@
 #ifndef GifPro_LZWBuffer_h
 #define GifPro_LZWBuffer_h
 
+#import <Foundation/Foundation.h>
+
 #define LZWBufferSize 0x1000
 
 struct _LZWBuffer {

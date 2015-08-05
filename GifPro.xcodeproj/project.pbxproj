@@ -7,6 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27AAD3341B2AAED300740C5A /* ANGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 27AAD3331B2AAED300740C5A /* ANGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27AAD33A1B2AAED300740C5A /* ANGif-IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AAD32F1B2AAED300740C5A /* ANGif-IOS.framework */; };
+		27AAD3431B2AAED300740C5A /* ANGifTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AAD3421B2AAED300740C5A /* ANGifTests.m */; };
+		27AAD3461B2AAED300740C5A /* ANGif-IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AAD32F1B2AAED300740C5A /* ANGif-IOS.framework */; };
+		27AAD3471B2AAED300740C5A /* ANGif-IOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27AAD32F1B2AAED300740C5A /* ANGif-IOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27AAD34F1B2AAF2F00740C5A /* ANGifAppExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B5146388170074409F /* ANGifAppExtension.m */; };
+		27AAD3501B2AAF2F00740C5A /* ANGifNetscapeAppExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B7146388170074409F /* ANGifNetscapeAppExtension.m */; };
+		27AAD3511B2AAF2F00740C5A /* ANColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09BC146388170074409F /* ANColorTable.m */; };
+		27AAD3521B2AAF2F00740C5A /* ANAvgColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09BA146388170074409F /* ANAvgColorTable.m */; };
+		27AAD3531B2AAF2F00740C5A /* ANCutColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09BF146388170074409F /* ANCutColorTable.m */; };
+		27AAD3541B2AAF2F00740C5A /* ANMutableColorArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C1146388170074409F /* ANMutableColorArray.m */; };
+		27AAD3551B2AAF2F00740C5A /* ANGifDataSubblock.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C4146388170074409F /* ANGifDataSubblock.m */; };
+		27AAD3561B2AAF2F00740C5A /* ANGifImageDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C6146388170074409F /* ANGifImageDescriptor.m */; };
+		27AAD3571B2AAF2F00740C5A /* ANGifImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C8146388170074409F /* ANGifImageFrame.m */; };
+		27AAD3581B2AAF2F00740C5A /* LZWSpoof.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09CC146388170074409F /* LZWSpoof.m */; };
+		27AAD3591B2AAF2F00740C5A /* LZWBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E7C7C1479A30A00EE7144 /* LZWBuffer.m */; };
+		27AAD35A1B2AAF2F00740C5A /* ANGifEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09AE146388170074409F /* ANGifEncoder.m */; };
+		27AAD35B1B2AAF2F00740C5A /* ANGifGraphicControlExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B0146388170074409F /* ANGifGraphicControlExt.m */; };
+		27AAD35C1B2AAF2F00740C5A /* ANGifLogicalScreenDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B2146388170074409F /* ANGifLogicalScreenDesc.m */; };
+		27AAD36F1B2AB3F100740C5A /* ANCGImageGifPixelSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AAD36D1B2AB3F100740C5A /* ANCGImageGifPixelSource.m */; };
+		27AAD3721B2BE8AC00740C5A /* ANGifMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 27AAD3701B2BE8AC00740C5A /* ANGifMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27AAD3731B2BE8AC00740C5A /* ANGifMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AAD3711B2BE8AC00740C5A /* ANGifMaker.m */; };
+		27AAD3CB1B2BF49700740C5A /* libANGifLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AAD3C01B2BF49600740C5A /* libANGifLib.a */; };
+		27AAD3E71B2BF4D000740C5A /* ANGif-MAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AAD3DC1B2BF4CF00740C5A /* ANGif-MAC.framework */; };
+		27AAD3F01B2BF4D000740C5A /* ANGif_MACTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AAD3EF1B2BF4D000740C5A /* ANGif_MACTests.m */; };
+		27AAD3F31B2BF4D000740C5A /* ANGif-MAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AAD3DC1B2BF4CF00740C5A /* ANGif-MAC.framework */; };
+		27AAD3F41B2BF4D000740C5A /* ANGif-MAC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27AAD3DC1B2BF4CF00740C5A /* ANGif-MAC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27AAD3FB1B2BF4F500740C5A /* ANGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 27AAD3331B2AAED300740C5A /* ANGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27AAD3FC1B2BF52F00740C5A /* ANGifAppExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B5146388170074409F /* ANGifAppExtension.m */; };
+		27AAD3FD1B2BF52F00740C5A /* ANGifNetscapeAppExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B7146388170074409F /* ANGifNetscapeAppExtension.m */; };
+		27AAD3FE1B2BF52F00740C5A /* ANColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09BC146388170074409F /* ANColorTable.m */; };
+		27AAD3FF1B2BF52F00740C5A /* ANAvgColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09BA146388170074409F /* ANAvgColorTable.m */; };
+		27AAD4001B2BF52F00740C5A /* ANCutColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09BF146388170074409F /* ANCutColorTable.m */; };
+		27AAD4011B2BF52F00740C5A /* ANMutableColorArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C1146388170074409F /* ANMutableColorArray.m */; };
+		27AAD4021B2BF52F00740C5A /* ANGifDataSubblock.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C4146388170074409F /* ANGifDataSubblock.m */; };
+		27AAD4031B2BF52F00740C5A /* ANGifImageDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C6146388170074409F /* ANGifImageDescriptor.m */; };
+		27AAD4041B2BF52F00740C5A /* ANGifImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C8146388170074409F /* ANGifImageFrame.m */; };
+		27AAD4051B2BF52F00740C5A /* ANCGImageGifPixelSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AAD36D1B2AB3F100740C5A /* ANCGImageGifPixelSource.m */; };
+		27AAD4061B2BF52F00740C5A /* LZWSpoof.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09CC146388170074409F /* LZWSpoof.m */; };
+		27AAD4071B2BF52F00740C5A /* LZWBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E7C7C1479A30A00EE7144 /* LZWBuffer.m */; };
+		27AAD4081B2BF52F00740C5A /* ANGifEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09AE146388170074409F /* ANGifEncoder.m */; };
+		27AAD4091B2BF52F00740C5A /* ANGifGraphicControlExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B0146388170074409F /* ANGifGraphicControlExt.m */; };
+		27AAD40A1B2BF52F00740C5A /* ANGifLogicalScreenDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B2146388170074409F /* ANGifLogicalScreenDesc.m */; };
+		27AAD40B1B2BF52F00740C5A /* ANGifMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AAD3711B2BE8AC00740C5A /* ANGifMaker.m */; };
+		27AAD40C1B2BF53A00740C5A /* ANGifMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 27AAD3701B2BE8AC00740C5A /* ANGifMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27AAD40D1B2BF56000740C5A /* ANGifAppExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B5146388170074409F /* ANGifAppExtension.m */; };
+		27AAD40E1B2BF56000740C5A /* ANGifNetscapeAppExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B7146388170074409F /* ANGifNetscapeAppExtension.m */; };
+		27AAD40F1B2BF56000740C5A /* ANColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09BC146388170074409F /* ANColorTable.m */; };
+		27AAD4101B2BF56000740C5A /* ANAvgColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09BA146388170074409F /* ANAvgColorTable.m */; };
+		27AAD4111B2BF56000740C5A /* ANCutColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09BF146388170074409F /* ANCutColorTable.m */; };
+		27AAD4121B2BF56000740C5A /* ANMutableColorArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C1146388170074409F /* ANMutableColorArray.m */; };
+		27AAD4131B2BF56000740C5A /* ANGifDataSubblock.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C4146388170074409F /* ANGifDataSubblock.m */; };
+		27AAD4141B2BF56000740C5A /* ANGifImageDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C6146388170074409F /* ANGifImageDescriptor.m */; };
+		27AAD4151B2BF56000740C5A /* ANGifImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09C8146388170074409F /* ANGifImageFrame.m */; };
+		27AAD4161B2BF56000740C5A /* ANCGImageGifPixelSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AAD36D1B2AB3F100740C5A /* ANCGImageGifPixelSource.m */; };
+		27AAD4171B2BF56000740C5A /* LZWSpoof.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09CC146388170074409F /* LZWSpoof.m */; };
+		27AAD4181B2BF56000740C5A /* LZWBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E7C7C1479A30A00EE7144 /* LZWBuffer.m */; };
+		27AAD4191B2BF56000740C5A /* ANGifEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09AE146388170074409F /* ANGifEncoder.m */; };
+		27AAD41A1B2BF56000740C5A /* ANGifGraphicControlExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B0146388170074409F /* ANGifGraphicControlExt.m */; };
+		27AAD41B1B2BF56000740C5A /* ANGifLogicalScreenDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C09B2146388170074409F /* ANGifLogicalScreenDesc.m */; };
+		27AAD41C1B2BF56000740C5A /* ANGifMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AAD3711B2BE8AC00740C5A /* ANGifMaker.m */; };
+		27AAD41D1B2BF56900740C5A /* ANGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 27AAD3331B2AAED300740C5A /* ANGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27AAD41E1B2BF56C00740C5A /* ANGifMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 27AAD3701B2BE8AC00740C5A /* ANGifMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA0A5C121461F7C6006BEE0C /* ANNSImageGifPixelSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0A5C111461F7C6006BEE0C /* ANNSImageGifPixelSource.m */; };
 		FA0B00A31460A8F100E57109 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0B00A21460A8F100E57109 /* Cocoa.framework */; };
 		FA0B00AD1460A8F100E57109 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA0B00AB1460A8F100E57109 /* InfoPlist.strings */; };
@@ -33,7 +96,95 @@
 		FA9B338E1464812700D58B3A /* NSImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9B338D1464812700D58B3A /* NSImage+Resize.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		27AAD33B1B2AAED300740C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0B00951460A8F100E57109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AAD32E1B2AAED300740C5A;
+			remoteInfo = ANGif;
+		};
+		27AAD33D1B2AAED300740C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0B00951460A8F100E57109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0B009D1460A8F100E57109;
+			remoteInfo = GifPro;
+		};
+		27AAD3441B2AAED300740C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0B00951460A8F100E57109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AAD32E1B2AAED300740C5A;
+			remoteInfo = ANGif;
+		};
+		27AAD3CC1B2BF49700740C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0B00951460A8F100E57109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AAD3BF1B2BF49600740C5A;
+			remoteInfo = ANGifLib;
+		};
+		27AAD3E81B2BF4D000740C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0B00951460A8F100E57109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AAD3DB1B2BF4CF00740C5A;
+			remoteInfo = "ANGif-MAC";
+		};
+		27AAD3EA1B2BF4D000740C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0B00951460A8F100E57109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0B009D1460A8F100E57109;
+			remoteInfo = GifPro;
+		};
+		27AAD3F11B2BF4D000740C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0B00951460A8F100E57109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AAD3DB1B2BF4CF00740C5A;
+			remoteInfo = "ANGif-MAC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27AAD34D1B2AAED300740C5A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27AAD3F41B2BF4D000740C5A /* ANGif-MAC.framework in Embed Frameworks */,
+				27AAD3471B2AAED300740C5A /* ANGif-IOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		27AAD32F1B2AAED300740C5A /* ANGif-IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "ANGif-IOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AAD3321B2AAED300740C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AAD3331B2AAED300740C5A /* ANGif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANGif.h; sourceTree = "<group>"; };
+		27AAD3391B2AAED300740C5A /* ANGifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANGifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AAD3411B2AAED300740C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AAD3421B2AAED300740C5A /* ANGifTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANGifTests.m; sourceTree = "<group>"; };
+		27AAD36C1B2AB3F100740C5A /* ANCGImageGifPixelSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANCGImageGifPixelSource.h; sourceTree = "<group>"; };
+		27AAD36D1B2AB3F100740C5A /* ANCGImageGifPixelSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANCGImageGifPixelSource.m; sourceTree = "<group>"; };
+		27AAD3701B2BE8AC00740C5A /* ANGifMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGifMaker.h; sourceTree = "<group>"; };
+		27AAD3711B2BE8AC00740C5A /* ANGifMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANGifMaker.m; sourceTree = "<group>"; };
+		27AAD3C01B2BF49600740C5A /* libANGifLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libANGifLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AAD3C21B2BF49700740C5A /* ANGifLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANGifLib.h; sourceTree = "<group>"; };
+		27AAD3C41B2BF49700740C5A /* ANGifLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANGifLib.m; sourceTree = "<group>"; };
+		27AAD3CA1B2BF49700740C5A /* ANGifLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANGifLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AAD3D01B2BF49700740C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AAD3DC1B2BF4CF00740C5A /* ANGif-MAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "ANGif-MAC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AAD3DF1B2BF4D000740C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AAD3E01B2BF4D000740C5A /* ANGif-MAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ANGif-MAC.h"; sourceTree = "<group>"; };
+		27AAD3E61B2BF4D000740C5A /* ANGif-MACTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ANGif-MACTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AAD3EE1B2BF4D000740C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AAD3EF1B2BF4D000740C5A /* ANGif_MACTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANGif_MACTests.m; sourceTree = "<group>"; };
 		FA0A5C101461F7C5006BEE0C /* ANNSImageGifPixelSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANNSImageGifPixelSource.h; path = ../ANNSImageGifPixelSource.h; sourceTree = "<group>"; };
 		FA0A5C111461F7C6006BEE0C /* ANNSImageGifPixelSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANNSImageGifPixelSource.m; path = ../ANNSImageGifPixelSource.m; sourceTree = "<group>"; };
 		FA0B009E1460A8F100E57109 /* GifPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,10 +238,57 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		27AAD32B1B2AAED300740C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3361B2AAED300740C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AAD33A1B2AAED300740C5A /* ANGif-IOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3BD1B2BF49600740C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3C71B2BF49700740C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AAD3CB1B2BF49700740C5A /* libANGifLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3D81B2BF4CF00740C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3E31B2BF4D000740C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AAD3E71B2BF4D000740C5A /* ANGif-MAC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA0B009B1460A8F100E57109 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AAD3461B2AAED300740C5A /* ANGif-IOS.framework in Frameworks */,
+				27AAD3F31B2BF4D000740C5A /* ANGif-MAC.framework in Frameworks */,
 				FA0B00A31460A8F100E57109 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,11 +296,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27AAD3301B2AAED300740C5A /* ANGif */ = {
+			isa = PBXGroup;
+			children = (
+				27AAD3331B2AAED300740C5A /* ANGif.h */,
+				27AAD3701B2BE8AC00740C5A /* ANGifMaker.h */,
+				27AAD3711B2BE8AC00740C5A /* ANGifMaker.m */,
+				27AAD3311B2AAED300740C5A /* Supporting Files */,
+			);
+			path = ANGif;
+			sourceTree = "<group>";
+		};
+		27AAD3311B2AAED300740C5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27AAD3321B2AAED300740C5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27AAD33F1B2AAED300740C5A /* ANGifTests */ = {
+			isa = PBXGroup;
+			children = (
+				27AAD3421B2AAED300740C5A /* ANGifTests.m */,
+				27AAD3401B2AAED300740C5A /* Supporting Files */,
+			);
+			path = ANGifTests;
+			sourceTree = "<group>";
+		};
+		27AAD3401B2AAED300740C5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27AAD3411B2AAED300740C5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27AAD3C11B2BF49700740C5A /* ANGifLib */ = {
+			isa = PBXGroup;
+			children = (
+				27AAD3C21B2BF49700740C5A /* ANGifLib.h */,
+				27AAD3C41B2BF49700740C5A /* ANGifLib.m */,
+			);
+			path = ANGifLib;
+			sourceTree = "<group>";
+		};
+		27AAD3CE1B2BF49700740C5A /* ANGifLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				27AAD3CF1B2BF49700740C5A /* Supporting Files */,
+			);
+			path = ANGifLibTests;
+			sourceTree = "<group>";
+		};
+		27AAD3CF1B2BF49700740C5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27AAD3D01B2BF49700740C5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27AAD3DD1B2BF4CF00740C5A /* ANGif-MAC */ = {
+			isa = PBXGroup;
+			children = (
+				27AAD3E01B2BF4D000740C5A /* ANGif-MAC.h */,
+				27AAD3DE1B2BF4D000740C5A /* Supporting Files */,
+			);
+			path = "ANGif-MAC";
+			sourceTree = "<group>";
+		};
+		27AAD3DE1B2BF4D000740C5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27AAD3DF1B2BF4D000740C5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27AAD3EC1B2BF4D000740C5A /* ANGif-MACTests */ = {
+			isa = PBXGroup;
+			children = (
+				27AAD3EF1B2BF4D000740C5A /* ANGif_MACTests.m */,
+				27AAD3ED1B2BF4D000740C5A /* Supporting Files */,
+			);
+			path = "ANGif-MACTests";
+			sourceTree = "<group>";
+		};
+		27AAD3ED1B2BF4D000740C5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27AAD3EE1B2BF4D000740C5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FA0B00931460A8F100E57109 = {
 			isa = PBXGroup;
 			children = (
 				FA0C09AC146388170074409F /* ANGif */,
 				FA0B00A81460A8F100E57109 /* GifPro */,
+				27AAD3301B2AAED300740C5A /* ANGif */,
+				27AAD33F1B2AAED300740C5A /* ANGifTests */,
+				27AAD3C11B2BF49700740C5A /* ANGifLib */,
+				27AAD3CE1B2BF49700740C5A /* ANGifLibTests */,
+				27AAD3DD1B2BF4CF00740C5A /* ANGif-MAC */,
+				27AAD3EC1B2BF4D000740C5A /* ANGif-MACTests */,
 				FA0B00A11460A8F100E57109 /* Frameworks */,
 				FA0B009F1460A8F100E57109 /* Products */,
 			);
@@ -112,6 +411,12 @@
 			isa = PBXGroup;
 			children = (
 				FA0B009E1460A8F100E57109 /* GifPro.app */,
+				27AAD32F1B2AAED300740C5A /* ANGif-IOS.framework */,
+				27AAD3391B2AAED300740C5A /* ANGifTests.xctest */,
+				27AAD3C01B2BF49600740C5A /* libANGifLib.a */,
+				27AAD3CA1B2BF49700740C5A /* ANGifLibTests.xctest */,
+				27AAD3DC1B2BF4CF00740C5A /* ANGif-MAC.framework */,
+				27AAD3E61B2BF4D000740C5A /* ANGif-MACTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,6 +529,8 @@
 				FA0C09C7146388170074409F /* ANGifImageFrame.h */,
 				FA0C09C8146388170074409F /* ANGifImageFrame.m */,
 				FA0C09C9146388170074409F /* ANGifImageFramePixelSource.h */,
+				27AAD36C1B2AB3F100740C5A /* ANCGImageGifPixelSource.h */,
+				27AAD36D1B2AB3F100740C5A /* ANCGImageGifPixelSource.m */,
 			);
 			path = ImageFrame;
 			sourceTree = "<group>";
@@ -252,7 +559,146 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		27AAD32C1B2AAED300740C5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AAD3341B2AAED300740C5A /* ANGif.h in Headers */,
+				27AAD3721B2BE8AC00740C5A /* ANGifMaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3BE1B2BF49600740C5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AAD41D1B2BF56900740C5A /* ANGif.h in Headers */,
+				27AAD41E1B2BF56C00740C5A /* ANGifMaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3D91B2BF4CF00740C5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AAD3FB1B2BF4F500740C5A /* ANGif.h in Headers */,
+				27AAD40C1B2BF53A00740C5A /* ANGifMaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		27AAD32E1B2AAED300740C5A /* ANGif-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AAD34C1B2AAED300740C5A /* Build configuration list for PBXNativeTarget "ANGif-IOS" */;
+			buildPhases = (
+				27AAD32A1B2AAED300740C5A /* Sources */,
+				27AAD32B1B2AAED300740C5A /* Frameworks */,
+				27AAD32C1B2AAED300740C5A /* Headers */,
+				27AAD32D1B2AAED300740C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ANGif-IOS";
+			productName = ANGif;
+			productReference = 27AAD32F1B2AAED300740C5A /* ANGif-IOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27AAD3381B2AAED300740C5A /* ANGifTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AAD34E1B2AAED300740C5A /* Build configuration list for PBXNativeTarget "ANGifTests" */;
+			buildPhases = (
+				27AAD3351B2AAED300740C5A /* Sources */,
+				27AAD3361B2AAED300740C5A /* Frameworks */,
+				27AAD3371B2AAED300740C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27AAD33C1B2AAED300740C5A /* PBXTargetDependency */,
+				27AAD33E1B2AAED300740C5A /* PBXTargetDependency */,
+			);
+			name = ANGifTests;
+			productName = ANGifTests;
+			productReference = 27AAD3391B2AAED300740C5A /* ANGifTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27AAD3BF1B2BF49600740C5A /* ANGifLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AAD3D11B2BF49700740C5A /* Build configuration list for PBXNativeTarget "ANGifLib" */;
+			buildPhases = (
+				27AAD3BC1B2BF49600740C5A /* Sources */,
+				27AAD3BD1B2BF49600740C5A /* Frameworks */,
+				27AAD3BE1B2BF49600740C5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANGifLib;
+			productName = ANGifLib;
+			productReference = 27AAD3C01B2BF49600740C5A /* libANGifLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		27AAD3C91B2BF49700740C5A /* ANGifLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AAD3D41B2BF49700740C5A /* Build configuration list for PBXNativeTarget "ANGifLibTests" */;
+			buildPhases = (
+				27AAD3C61B2BF49700740C5A /* Sources */,
+				27AAD3C71B2BF49700740C5A /* Frameworks */,
+				27AAD3C81B2BF49700740C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27AAD3CD1B2BF49700740C5A /* PBXTargetDependency */,
+			);
+			name = ANGifLibTests;
+			productName = ANGifLibTests;
+			productReference = 27AAD3CA1B2BF49700740C5A /* ANGifLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27AAD3DB1B2BF4CF00740C5A /* ANGif-MAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AAD3F51B2BF4D000740C5A /* Build configuration list for PBXNativeTarget "ANGif-MAC" */;
+			buildPhases = (
+				27AAD3D71B2BF4CF00740C5A /* Sources */,
+				27AAD3D81B2BF4CF00740C5A /* Frameworks */,
+				27AAD3D91B2BF4CF00740C5A /* Headers */,
+				27AAD3DA1B2BF4CF00740C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ANGif-MAC";
+			productName = "ANGif-MAC";
+			productReference = 27AAD3DC1B2BF4CF00740C5A /* ANGif-MAC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27AAD3E51B2BF4D000740C5A /* ANGif-MACTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AAD3F81B2BF4D000740C5A /* Build configuration list for PBXNativeTarget "ANGif-MACTests" */;
+			buildPhases = (
+				27AAD3E21B2BF4D000740C5A /* Sources */,
+				27AAD3E31B2BF4D000740C5A /* Frameworks */,
+				27AAD3E41B2BF4D000740C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27AAD3E91B2BF4D000740C5A /* PBXTargetDependency */,
+				27AAD3EB1B2BF4D000740C5A /* PBXTargetDependency */,
+			);
+			name = "ANGif-MACTests";
+			productName = "ANGif-MACTests";
+			productReference = 27AAD3E61B2BF4D000740C5A /* ANGif-MACTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FA0B009D1460A8F100E57109 /* GifPro */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA0B00BC1460A8F100E57109 /* Build configuration list for PBXNativeTarget "GifPro" */;
@@ -260,10 +706,13 @@
 				FA0B009A1460A8F100E57109 /* Sources */,
 				FA0B009B1460A8F100E57109 /* Frameworks */,
 				FA0B009C1460A8F100E57109 /* Resources */,
+				27AAD34D1B2AAED300740C5A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				27AAD3451B2AAED300740C5A /* PBXTargetDependency */,
+				27AAD3F21B2BF4D000740C5A /* PBXTargetDependency */,
 			);
 			name = GifPro;
 			productName = GifPro;
@@ -276,7 +725,29 @@
 		FA0B00951460A8F100E57109 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					27AAD32E1B2AAED300740C5A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					27AAD3381B2AAED300740C5A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FA0B009D1460A8F100E57109;
+					};
+					27AAD3BF1B2BF49600740C5A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					27AAD3C91B2BF49700740C5A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					27AAD3DB1B2BF4CF00740C5A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					27AAD3E51B2BF4D000740C5A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FA0B009D1460A8F100E57109;
+					};
+				};
 			};
 			buildConfigurationList = FA0B00981460A8F100E57109 /* Build configuration list for PBXProject "GifPro" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -291,11 +762,52 @@
 			projectRoot = "";
 			targets = (
 				FA0B009D1460A8F100E57109 /* GifPro */,
+				27AAD32E1B2AAED300740C5A /* ANGif-IOS */,
+				27AAD3381B2AAED300740C5A /* ANGifTests */,
+				27AAD3BF1B2BF49600740C5A /* ANGifLib */,
+				27AAD3C91B2BF49700740C5A /* ANGifLibTests */,
+				27AAD3DB1B2BF4CF00740C5A /* ANGif-MAC */,
+				27AAD3E51B2BF4D000740C5A /* ANGif-MACTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		27AAD32D1B2AAED300740C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3371B2AAED300740C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3C81B2BF49700740C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3DA1B2BF4CF00740C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3E41B2BF4D000740C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA0B009C1460A8F100E57109 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,6 +821,98 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		27AAD32A1B2AAED300740C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AAD34F1B2AAF2F00740C5A /* ANGifAppExtension.m in Sources */,
+				27AAD3501B2AAF2F00740C5A /* ANGifNetscapeAppExtension.m in Sources */,
+				27AAD3511B2AAF2F00740C5A /* ANColorTable.m in Sources */,
+				27AAD3521B2AAF2F00740C5A /* ANAvgColorTable.m in Sources */,
+				27AAD3531B2AAF2F00740C5A /* ANCutColorTable.m in Sources */,
+				27AAD3541B2AAF2F00740C5A /* ANMutableColorArray.m in Sources */,
+				27AAD3551B2AAF2F00740C5A /* ANGifDataSubblock.m in Sources */,
+				27AAD3561B2AAF2F00740C5A /* ANGifImageDescriptor.m in Sources */,
+				27AAD3571B2AAF2F00740C5A /* ANGifImageFrame.m in Sources */,
+				27AAD36F1B2AB3F100740C5A /* ANCGImageGifPixelSource.m in Sources */,
+				27AAD3581B2AAF2F00740C5A /* LZWSpoof.m in Sources */,
+				27AAD3591B2AAF2F00740C5A /* LZWBuffer.m in Sources */,
+				27AAD3731B2BE8AC00740C5A /* ANGifMaker.m in Sources */,
+				27AAD35A1B2AAF2F00740C5A /* ANGifEncoder.m in Sources */,
+				27AAD35B1B2AAF2F00740C5A /* ANGifGraphicControlExt.m in Sources */,
+				27AAD35C1B2AAF2F00740C5A /* ANGifLogicalScreenDesc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3351B2AAED300740C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AAD3431B2AAED300740C5A /* ANGifTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3BC1B2BF49600740C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AAD40D1B2BF56000740C5A /* ANGifAppExtension.m in Sources */,
+				27AAD40E1B2BF56000740C5A /* ANGifNetscapeAppExtension.m in Sources */,
+				27AAD40F1B2BF56000740C5A /* ANColorTable.m in Sources */,
+				27AAD4101B2BF56000740C5A /* ANAvgColorTable.m in Sources */,
+				27AAD4111B2BF56000740C5A /* ANCutColorTable.m in Sources */,
+				27AAD4121B2BF56000740C5A /* ANMutableColorArray.m in Sources */,
+				27AAD4131B2BF56000740C5A /* ANGifDataSubblock.m in Sources */,
+				27AAD4141B2BF56000740C5A /* ANGifImageDescriptor.m in Sources */,
+				27AAD4151B2BF56000740C5A /* ANGifImageFrame.m in Sources */,
+				27AAD4161B2BF56000740C5A /* ANCGImageGifPixelSource.m in Sources */,
+				27AAD4171B2BF56000740C5A /* LZWSpoof.m in Sources */,
+				27AAD4181B2BF56000740C5A /* LZWBuffer.m in Sources */,
+				27AAD4191B2BF56000740C5A /* ANGifEncoder.m in Sources */,
+				27AAD41A1B2BF56000740C5A /* ANGifGraphicControlExt.m in Sources */,
+				27AAD41B1B2BF56000740C5A /* ANGifLogicalScreenDesc.m in Sources */,
+				27AAD41C1B2BF56000740C5A /* ANGifMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3C61B2BF49700740C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3D71B2BF4CF00740C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AAD3FC1B2BF52F00740C5A /* ANGifAppExtension.m in Sources */,
+				27AAD3FD1B2BF52F00740C5A /* ANGifNetscapeAppExtension.m in Sources */,
+				27AAD3FE1B2BF52F00740C5A /* ANColorTable.m in Sources */,
+				27AAD3FF1B2BF52F00740C5A /* ANAvgColorTable.m in Sources */,
+				27AAD4001B2BF52F00740C5A /* ANCutColorTable.m in Sources */,
+				27AAD4011B2BF52F00740C5A /* ANMutableColorArray.m in Sources */,
+				27AAD4021B2BF52F00740C5A /* ANGifDataSubblock.m in Sources */,
+				27AAD4031B2BF52F00740C5A /* ANGifImageDescriptor.m in Sources */,
+				27AAD4041B2BF52F00740C5A /* ANGifImageFrame.m in Sources */,
+				27AAD4051B2BF52F00740C5A /* ANCGImageGifPixelSource.m in Sources */,
+				27AAD4061B2BF52F00740C5A /* LZWSpoof.m in Sources */,
+				27AAD4071B2BF52F00740C5A /* LZWBuffer.m in Sources */,
+				27AAD4081B2BF52F00740C5A /* ANGifEncoder.m in Sources */,
+				27AAD4091B2BF52F00740C5A /* ANGifGraphicControlExt.m in Sources */,
+				27AAD40A1B2BF52F00740C5A /* ANGifLogicalScreenDesc.m in Sources */,
+				27AAD40B1B2BF52F00740C5A /* ANGifMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AAD3E21B2BF4D000740C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AAD3F01B2BF4D000740C5A /* ANGif_MACTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA0B009A1460A8F100E57109 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,6 +942,44 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		27AAD33C1B2AAED300740C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AAD32E1B2AAED300740C5A /* ANGif-IOS */;
+			targetProxy = 27AAD33B1B2AAED300740C5A /* PBXContainerItemProxy */;
+		};
+		27AAD33E1B2AAED300740C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0B009D1460A8F100E57109 /* GifPro */;
+			targetProxy = 27AAD33D1B2AAED300740C5A /* PBXContainerItemProxy */;
+		};
+		27AAD3451B2AAED300740C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AAD32E1B2AAED300740C5A /* ANGif-IOS */;
+			targetProxy = 27AAD3441B2AAED300740C5A /* PBXContainerItemProxy */;
+		};
+		27AAD3CD1B2BF49700740C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AAD3BF1B2BF49600740C5A /* ANGifLib */;
+			targetProxy = 27AAD3CC1B2BF49700740C5A /* PBXContainerItemProxy */;
+		};
+		27AAD3E91B2BF4D000740C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AAD3DB1B2BF4CF00740C5A /* ANGif-MAC */;
+			targetProxy = 27AAD3E81B2BF4D000740C5A /* PBXContainerItemProxy */;
+		};
+		27AAD3EB1B2BF4D000740C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0B009D1460A8F100E57109 /* GifPro */;
+			targetProxy = 27AAD3EA1B2BF4D000740C5A /* PBXContainerItemProxy */;
+		};
+		27AAD3F21B2BF4D000740C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AAD3DB1B2BF4CF00740C5A /* ANGif-MAC */;
+			targetProxy = 27AAD3F11B2BF4D000740C5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		FA0B00AB1460A8F100E57109 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -366,16 +1008,408 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		27AAD3481B2AAED300740C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = ANGif/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27AAD3491B2AAED300740C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = ANGif/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27AAD34A1B2AAED300740C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = ANGifTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifPro.app/Contents/MacOS/GifPro";
+			};
+			name = Debug;
+		};
+		27AAD34B1B2AAED300740C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = ANGifTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifPro.app/Contents/MacOS/GifPro";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27AAD3D21B2BF49700740C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27AAD3D31B2BF49700740C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27AAD3D51B2BF49700740C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = ANGifLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27AAD3D61B2BF49700740C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = ANGifLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27AAD3F61B2BF4D000740C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ANGif-MAC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27AAD3F71B2BF4D000740C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ANGif-MAC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27AAD3F91B2BF4D000740C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ANGif-MACTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifPro.app/Contents/MacOS/GifPro";
+			};
+			name = Debug;
+		};
+		27AAD3FA1B2BF4D000740C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ANGif-MACTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifPro.app/Contents/MacOS/GifPro";
+			};
+			name = Release;
+		};
 		FA0B00BA1460A8F100E57109 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -386,7 +1420,11 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -397,17 +1435,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
@@ -417,9 +1467,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GifPro/GifPro-Prefix.pch";
 				INFOPLIST_FILE = "GifPro/GifPro-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -429,9 +1481,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GifPro/GifPro-Prefix.pch";
 				INFOPLIST_FILE = "GifPro/GifPro-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -440,6 +1494,60 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		27AAD34C1B2AAED300740C5A /* Build configuration list for PBXNativeTarget "ANGif-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AAD3481B2AAED300740C5A /* Debug */,
+				27AAD3491B2AAED300740C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AAD34E1B2AAED300740C5A /* Build configuration list for PBXNativeTarget "ANGifTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AAD34A1B2AAED300740C5A /* Debug */,
+				27AAD34B1B2AAED300740C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AAD3D11B2BF49700740C5A /* Build configuration list for PBXNativeTarget "ANGifLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AAD3D21B2BF49700740C5A /* Debug */,
+				27AAD3D31B2BF49700740C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AAD3D41B2BF49700740C5A /* Build configuration list for PBXNativeTarget "ANGifLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AAD3D51B2BF49700740C5A /* Debug */,
+				27AAD3D61B2BF49700740C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AAD3F51B2BF4D000740C5A /* Build configuration list for PBXNativeTarget "ANGif-MAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AAD3F61B2BF4D000740C5A /* Debug */,
+				27AAD3F71B2BF4D000740C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AAD3F81B2BF4D000740C5A /* Build configuration list for PBXNativeTarget "ANGif-MACTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AAD3F91B2BF4D000740C5A /* Debug */,
+				27AAD3FA1B2BF4D000740C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FA0B00981460A8F100E57109 /* Build configuration list for PBXProject "GifPro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

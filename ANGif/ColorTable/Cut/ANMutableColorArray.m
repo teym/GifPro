@@ -112,16 +112,16 @@ int CompareColorQSort (const void * ent1, const void * ent2);
 
 - (void)removeDuplicates {
 	return;
-	for (NSUInteger i = 0; i < _entryCount; i++) {
-		ANGifColor currentColor = _colors[i];
-		for (NSUInteger j = i + 1; j < _entryCount; j++) {
-			ANGifColor anotherColor = _colors[j];
-			if (ANGifColorIsEqual(currentColor, anotherColor)) {
-				[self removeAtIndex:j];
-				j--;
-			}
-		}
-	}
+//	for (NSUInteger i = 0; i < _entryCount; i++) {
+//		ANGifColor currentColor = _colors[i];
+//		for (NSUInteger j = i + 1; j < _entryCount; j++) {
+//			ANGifColor anotherColor = _colors[j];
+//			if (ANGifColorIsEqual(currentColor, anotherColor)) {
+//				[self removeAtIndex:j];
+//				j--;
+//			}
+//		}
+//	}
 }
 
 - (ANGifColor)averagePopFirst {
